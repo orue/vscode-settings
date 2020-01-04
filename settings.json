@@ -1,0 +1,73 @@
+{
+  "workbench.colorTheme": "Nord",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "Operator Mono",
+  "editor.fontSize": 15,
+  "editor.fontWeight": "400",
+  "editor.lineHeight": 25,
+  "window.zoomLevel": 0,
+  "editor.detectIndentation": true,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.tabSize": 2,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.insertSpaces": true,
+  "files.insertFinalNewline": true,
+  "editor.rulers": [
+    80,
+    120
+  ],
+  // only for python language files
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+  },
+  // Emmet settings
+  "emmet.includeLanguages": {
+    "html": "html",
+    "erb": "erb",
+    "javascript": "javascriptreact",
+    "vue": "html",
+    "ejs": "html"
+  },
+  "terminal.integrated.fontFamily": "'monaco','Hack Nerd Font'",
+  "terminal.integrated.rendererType": "canvas",
+  "terminal.integrated.fontSize": 14,
+  "editor.trimAutoWhitespace": false,
+  "editor.showFoldingControls": "always",
+  "editor.matchBrackets": "always",
+  "editor.minimap.enabled": false,
+  "files.trimTrailingWhitespace": true,
+  "editor.renderWhitespace": "none",
+  "workbench.editor.enablePreview": false,
+  "workbench.startupEditor": "none",
+  // Glob patterns for excluding folders and files
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/tmp": true,
+    "**/.DS_Store": true,
+    "**/*.js.map": true,
+    "**/*.pyc": {
+      "when": "$(basename).py"
+    },
+    "**/__pycache__": true,
+    "**/.pytest_cache": true
+  },
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+  "explorer.confirmDelete": false,
+  // "workbench.sideBar.location": "right",
+  "explorer.openEditors.visible": 0,
+  "python.pythonPath": "/usr/local/bin/python3",
+  "python.envFile": "${workspaceFolder}/venv",
+  "python.linting.pylintEnabled": false,
+  "python.linting.flake8Enabled": true,
+  "python.linting.lintOnSave": true,
+  "python.linting.flake8Path": "/usr/local/bin/flake8",
+  "python.formatting.blackPath": "/usr/local/bin/black",
+  "python.formatting.provider": "black",
+}
