@@ -1,6 +1,6 @@
-#vscode-settings
+# vscode-settings
 
-##settings.json
+## settings.json
 A copy of the settings.json file can be found under:
 
 * macOS
