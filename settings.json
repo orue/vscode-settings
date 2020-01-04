@@ -9,7 +9,7 @@
   "editor.detectIndentation": true,
   "editor.formatOnType": true,
   "editor.formatOnSave": true,
-  "editor.formatOnPaste": true,
+  "editor.formatOnPaste": false,
   "editor.tabSize": 2,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.insertSpaces": true,
@@ -60,7 +60,7 @@
   "git.enableSmartCommit": true,
   "git.autofetch": true,
   "explorer.confirmDelete": false,
-  // "workbench.sideBar.location": "right",
+  "workbench.sideBar.location": "right",
   "explorer.openEditors.visible": 0,
   "python.pythonPath": "/usr/local/bin/python3",
   "python.envFile": "${workspaceFolder}/venv",
@@ -68,6 +68,10 @@
   "python.linting.flake8Enabled": true,
   "python.linting.lintOnSave": true,
   "python.linting.flake8Path": "/usr/local/bin/flake8",
+  "python.linting.flake8Args": [
+    "--max-line-length=120",
+    "--ignore=E402",
+  ],
   "python.formatting.blackPath": "/usr/local/bin/black",
   "python.formatting.provider": "black",
 }
