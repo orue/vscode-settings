@@ -1,11 +1,16 @@
 {
+  // GLOBAL
   "workbench.colorTheme": "Nord",
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.enablePreview": false,
+  "workbench.startupEditor": "none",
+  "workbench.sideBar.location": "right",
+  "window.zoomLevel": 0,
+  //EDITOR
   "editor.fontFamily": "Operator Mono",
   "editor.fontSize": 15,
   "editor.fontWeight": "400",
   "editor.lineHeight": 25,
-  "window.zoomLevel": 0,
   "editor.detectIndentation": true,
   "editor.formatOnType": true,
   "editor.formatOnSave": true,
@@ -13,43 +18,22 @@
   "editor.tabSize": 2,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.insertSpaces": true,
-  "files.insertFinalNewline": true,
-  "editor.rulers": [
-    80,
-    120
-  ],
-  // only for python language files
-  "[python]": {
-    "editor.rulers": [
-      79,
-      120
-    ],
-    "editor.tabSize": 4,
-    "editor.insertSpaces": true
-  },
-  // Word-wrap markdown
-  "[markdown]": {
-    "editor.wordWrap": "on"
-  },
-  // Emmet settings
-  "emmet.includeLanguages": {
-    "html": "html",
-    "erb": "erb",
-    "javascript": "javascriptreact",
-    "vue": "html",
-    "ejs": "html"
-  },
-  "terminal.integrated.fontFamily": "'monaco','Hack Nerd Font'",
-  "terminal.integrated.rendererType": "canvas",
-  "terminal.integrated.fontSize": 14,
   "editor.trimAutoWhitespace": false,
   "editor.showFoldingControls": "always",
   "editor.matchBrackets": "always",
   "editor.minimap.enabled": false,
+  "editor.rulers": [
+    80,
+    120
+  ],
   "files.trimTrailingWhitespace": true,
-  "editor.renderWhitespace": "none",
-  "workbench.editor.enablePreview": false,
-  "workbench.startupEditor": "none",
+  "files.insertFinalNewline": true,
+  // TERMINAL
+  "terminal.integrated.fontFamily": "'monaco','Hack Nerd Font'",
+  "terminal.integrated.rendererType": "canvas",
+  "terminal.integrated.fontSize": 14,
+  "explorer.confirmDelete": false,
+  "explorer.openEditors.visible": 0,
   // Glob patterns for excluding folders and files
   "files.exclude": {
     "**/.git": true,
@@ -65,12 +49,22 @@
     "**/__pycache__": true,
     "**/.pytest_cache": true
   },
+  // GIT
   "git.enableSmartCommit": true,
   "git.autofetch": true,
-  "explorer.confirmDelete": false,
-  "workbench.sideBar.location": "right",
-  "explorer.openEditors.visible": 0,
-  // python
+  // Word-wrap markdown
+  "[markdown]": {
+    "editor.wordWrap": "on"
+  },
+  // Emmet settings
+  "emmet.includeLanguages": {
+    "html": "html",
+    "erb": "erb",
+    "javascript": "javascriptreact",
+    "vue": "html",
+    "ejs": "html"
+  },
+  // PYTHON LANGUAGE
   "python.pythonPath": "/usr/local/bin/python3",
   "python.envFile": "${workspaceFolder}/venv",
   "python.linting.pylintEnabled": false,
@@ -83,4 +77,16 @@
   ],
   "python.formatting.blackPath": "/usr/local/bin/black",
   "python.formatting.provider": "black",
+  "python.linting.pylintArgs": [
+    "--load-plugins",
+    "pylint-flask"
+  ],
+  "[python]": {
+    "editor.rulers": [
+      79,
+      120
+    ],
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true
+  },
 }
