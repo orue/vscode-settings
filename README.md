@@ -84,7 +84,6 @@ Also check and setup [Settings Sync](https://code.visualstudio.com/docs/editor/s
   "breadcrumbs.enabled": false,
   "extensions.ignoreRecommendations": true,
   "security.workspace.trust.enabled": false,
-  // * Editor =================================================================
   "editor.fontFamily": "MonoLisa",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
@@ -120,7 +119,6 @@ Also check and setup [Settings Sync](https://code.visualstudio.com/docs/editor/s
   "explorer.confirmDelete": false,
   "explorer.compactFolders": false,
   "markdown.validate.enabled": true,
-  // * Formatter ==============================================================
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
@@ -136,7 +134,6 @@ Also check and setup [Settings Sync](https://code.visualstudio.com/docs/editor/s
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  // * Terminal Settings ======================================================
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.sendKeybindingsToShell": true,
   "terminal.integrated.fontFamily": "'Cascadia Mono NF'",
@@ -146,7 +143,6 @@ Also check and setup [Settings Sync](https://code.visualstudio.com/docs/editor/s
   "terminal.integrated.env.osx": {
     "Q_NEW_SESSION": "1"
   },
-  // * Copilot ================================================================
   "github.copilot.enable": {
     "*": true,
     "plaintext": false,
@@ -158,3 +154,5 @@ Also check and setup [Settings Sync](https://code.visualstudio.com/docs/editor/s
 }
 
 ```
+
+Especial thank you to https://coding.garden/
