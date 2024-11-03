@@ -19,7 +19,7 @@
 ---
 ### Profiles
 I'm using [VS Code Profiles](https://code.visualstudio.com/docs/editor/profiles) for different development environment:
-- Default Profile (Base profile with all the common extensions and setting).
+- [Default Profile](https://github.com/orue/my-vscode-settings/blob/master/vscode-extensions-default.list) (Base profile with all the common extensions and setting).
 - Python Profile.
 - JavaScript Profile.
 
