@@ -86,8 +86,6 @@ Also check and setup [Settings Sync](https://code.visualstudio.com/docs/editor/s
   "extensions.ignoreRecommendations": true,
   "security.workspace.trust.enabled": false,
   "editor.fontFamily": "MonoLisa",
-  // "editor.fontFamily": "Operator Mono",
-  // "editor.fontFamily": "Dank Mono",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "editor.tabSize": 2,
