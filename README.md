@@ -72,12 +72,13 @@ Also check and setup [Settings Sync](https://code.visualstudio.com/docs/editor/s
   "workbench.editor.enablePreview": false,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.tree.renderIndentGuides": "always",
-  "workbench.tree.indent": 16,
+  "workbench.tree.indent": 14,
   "workbench.layoutControl.enabled": false,
   "workbench.settings.editor": "json",
   "workbench.editor.showTabs": "none",
   "workbench.statusBar.visible": false,
   "workbench.sideBar.location": "right",
+  "workbench.editor.labelFormat": "medium",
   "window.zoomLevel": 0.52,
   "window.commandCenter": false,
   "window.newWindowProfile": "Default",
@@ -85,6 +86,8 @@ Also check and setup [Settings Sync](https://code.visualstudio.com/docs/editor/s
   "extensions.ignoreRecommendations": true,
   "security.workspace.trust.enabled": false,
   "editor.fontFamily": "MonoLisa",
+  // "editor.fontFamily": "Operator Mono",
+  // "editor.fontFamily": "Dank Mono",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "editor.tabSize": 2,
@@ -93,15 +96,14 @@ Also check and setup [Settings Sync](https://code.visualstudio.com/docs/editor/s
   "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.multiCursorModifier": "ctrlCmd",
-  "editor.autoIndent": "full",
   "editor.snippetSuggestions": "top",
   "editor.tabCompletion": "on",
   "editor.accessibilitySupport": "off",
   "editor.minimap.enabled": false,
   "editor.linkedEditing": true,
-  "editor.stickyScroll.enabled": true,
   "editor.renderLineHighlight": "none",
   "editor.renderWhitespace": "none",
+  "diffEditor.ignoreTrimWhitespace": false,
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.codeActionsOnSave": {
@@ -152,6 +154,7 @@ Also check and setup [Settings Sync](https://code.visualstudio.com/docs/editor/s
     "properties": false
   },
 }
+
 
 ```
 
