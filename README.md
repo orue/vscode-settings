@@ -155,4 +155,4 @@ Also check and setup [Settings Sync](https://code.visualstudio.com/docs/editor/s
 
 ```
 
-Special thanks to https://coding.garden/, follow some of his ideas for setup my default VS Code Profile
+Special thanks to CJ on [Syntax](https://youtu.be/GK7zLYAXdDs?si=Nx83M424yKx67fs9), I follow some of his ideas for setting up my default VS Code Profile.
