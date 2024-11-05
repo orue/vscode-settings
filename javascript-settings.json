@@ -1,0 +1,123 @@
+{
+  "workbench.colorTheme": "Halcyon",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.iconTheme": "symbols",
+  "workbench.startupEditor": "none",
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.tree.renderIndentGuides": "always",
+  "workbench.tree.indent": 14,
+  "workbench.layoutControl.enabled": false,
+  "workbench.settings.editor": "json",
+  "window.zoomLevel": 0.52,
+  "window.commandCenter": false,
+  "breadcrumbs.enabled": false,
+  "extensions.ignoreRecommendations": true,
+  "workbench.editor.showTabs": "none",
+  "workbench.statusBar.visible": false,
+  "workbench.sideBar.location": "right",
+  "workbench.editor.labelFormat": "medium",
+  // * Editor =================================================================
+  "editor.fontFamily": "Operator Mono",
+  "editor.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 120,
+  "editor.cursorBlinking": "phase",
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.autoIndent": "full",
+  "editor.snippetSuggestions": "top",
+  "editor.tabCompletion": "on",
+  "editor.accessibilitySupport": "off",
+  "editor.minimap.enabled": false,
+  "editor.linkedEditing": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.renderLineHighlight": "none",
+  "editor.renderWhitespace": "none",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit",
+    "source.formatDocument": "explicit"
+  },
+  "editor.rulers": [120],
+  "files.trimFinalNewlines": true,
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "files.defaultLanguage": "markdown",
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.compactFolders": false,
+  "markdown.validate.enabled": true,
+  // * Formatter ==============================================================
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[handlebars]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // * Terminal Settings ======================================================
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.sendKeybindingsToShell": true,
+  "terminal.integrated.fontFamily": "'Cascadia Mono NF'",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.lineHeight": 1.2,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.env.osx": {
+    "Q_NEW_SESSION": "1"
+  },
+  // * Copilot ================================================================
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "gitignore": false,
+    "properties": false
+  },
+  // * JavaScript Settings ====================================================
+  "eslint.enable": true,
+  "eslint.validate": ["vue", "react", "typescript", "html", "javascript"],
+  "npm-intellisense.importES6": true,
+  "npm-intellisense.importQuotes": "'",
+  "npm-intellisense.importDeclarationType": "const",
+  // * Code Spell Check =======================================================
+  "cSpell.userWords": [
+    "Cascadia",
+    "esbenp",
+    "Fira",
+    "nuxt",
+    "orue",
+    "scminput",
+    "vetur",
+    "vuex"
+  ]
+}
