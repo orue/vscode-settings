@@ -1,0 +1,107 @@
+{
+    "workbench.colorTheme": "Monokai Pro (Filter Spectrum)",
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "symbols",
+    "workbench.startupEditor": "none",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.tree.renderIndentGuides": "always",
+    "workbench.tree.indent": 16,
+    "workbench.layoutControl.enabled": false,
+    "workbench.settings.editor": "json",
+    "window.zoomLevel": 0.52,
+    "window.commandCenter": false,
+    "breadcrumbs.enabled": false,
+    "extensions.ignoreRecommendations": true,
+    "workbench.editor.showTabs": "none",
+    "workbench.statusBar.visible": false,
+    "workbench.sideBar.location": "right",
+    // * Editor =================================================================
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 14,
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on",
+    "editor.wordWrapColumn": 120,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.autoIndent": "full",
+    "editor.snippetSuggestions": "top",
+    "editor.tabCompletion": "on",
+    "editor.accessibilitySupport": "off",
+    "editor.minimap.enabled": false,
+    "editor.linkedEditing": true,
+    "editor.stickyScroll.enabled": true,
+    "editor.renderLineHighlight": "none",
+    "editor.renderWhitespace": "none",
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit",
+    },
+    "editor.rulers": [
+        120
+    ],
+    "files.trimFinalNewlines": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "files.defaultLanguage": "markdown",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+    "markdown.validate.enabled": true,
+    // * Formatter ==============================================================
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    // * Terminal Settings ======================================================
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.sendKeybindingsToShell": true,
+    "terminal.integrated.fontFamily": "'Cascadia Mono NF'",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.env.osx": {
+        "Q_NEW_SESSION": "1"
+    },
+    // * Copilot ================================================================
+    "github.copilot.enable": {
+        "*": false,
+        "plaintext": false,
+        "markdown": false,
+        "scminput": false,
+        "gitignore": false,
+        "properties": false
+    },
+    // * Python-setting =========================================================
+    "python.analysis.typeCheckingMode": "basic",
+    "python.testing.pytestEnabled": true,
+    "[python]": {
+        "files.autoSave": "onFocusChange",
+        "editor.defaultFormatter": "charliermarsh.ruff",
+    },
+    "ruff.format.args": [
+        "--line-length",
+        "120"
+    ],
+    "files.exclude": {
+        "**/*.pyc": true,
+        "**/__pycache__/": true,
+        "**/.pytest_cache/": true,
+        "**/.ruff_cache/": true
+    }
+}

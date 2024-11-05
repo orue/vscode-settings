@@ -20,8 +20,6 @@
   "security.workspace.trust.enabled": false,
   // * Editor =================================================================
   "editor.fontFamily": "MonoLisa",
-  // "editor.fontFamily": "Operator Mono",
-  // "editor.fontFamily": "Dank Mono",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "editor.tabSize": 2,
@@ -89,13 +87,5 @@
     "scminput": false,
     "gitignore": false,
     "properties": false
-  },
-  // * Code Spell Check =======================================================
-  "cSpell.userWords": [
-    "Cascadia",
-    "esbenp",
-    "Fira",
-    "orue",
-    "scminput"
-  ]
+  }
 }
