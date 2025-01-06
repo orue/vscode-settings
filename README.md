@@ -30,28 +30,22 @@ I'm using [VS Code Profiles](https://code.visualstudio.com/docs/editor/profiles)
 ```
 aaron-bond.better-comments
 amazonwebservices.codewhisperer-for-command-line-companion
-arcticicestudio.nord-visual-studio-code
 bierner.markdown-preview-github-styles
-brittanychiang.halcyon-vscode
 christian-kohler.path-intellisense
 codezombiech.gitignore
+foxundermoon.shell-format
 github.copilot
 github.copilot-chat
 github.vscode-pull-request-github
-hackrio.hackr-theme
 mechatroner.rainbow-csv
-mhutchie.git-graph
-miguelsolorio.fluent-icons
-miguelsolorio.symbols
 mikestead.dotenv
-monokai.theme-monokai-pro-vscode
-ms-azuretools.vscode-docker
 redhat.vscode-xml
 redhat.vscode-yaml
 streetsidesoftware.code-spell-checker
+sumneko.lua
 tamasfe.even-better-toml
-visualstudioexptteam.intellicode-api-usage-examples
 yzhang.markdown-all-in-one
+
 ```
 You can export all the extensions to a .list file with the following comman:
 ```sh
@@ -66,26 +60,27 @@ Also check and setup [Settings Sync](https://code.visualstudio.com/docs/editor/s
 #### Default Profile Settings
 ```json
 {
-  "workbench.productIconTheme": "fluent-icons",
-  "workbench.iconTheme": "symbols",
+  // * General ================================================================
   "workbench.startupEditor": "none",
   "workbench.editor.enablePreview": false,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.tree.renderIndentGuides": "always",
-  "workbench.tree.indent": 14,
+  "workbench.tree.indent": 16,
   "workbench.layoutControl.enabled": false,
   "workbench.settings.editor": "json",
   "workbench.editor.showTabs": "none",
-  "workbench.statusBar.visible": false,
   "workbench.sideBar.location": "right",
-  "workbench.editor.labelFormat": "medium",
+  "workbench.editorAssociations": {
+    "*.md": "vscode.markdown.preview.editor"
+  },
   "window.zoomLevel": 0.52,
   "window.commandCenter": false,
   "window.newWindowProfile": "Default",
   "breadcrumbs.enabled": false,
   "extensions.ignoreRecommendations": true,
   "security.workspace.trust.enabled": false,
-  "editor.fontFamily": "MonoLisa",
+  // * Editor =================================================================
+  "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "editor.tabSize": 2,
@@ -94,14 +89,15 @@ Also check and setup [Settings Sync](https://code.visualstudio.com/docs/editor/s
   "editor.cursorBlinking": "phase",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.multiCursorModifier": "ctrlCmd",
+  "editor.autoIndent": "full",
   "editor.snippetSuggestions": "top",
   "editor.tabCompletion": "on",
   "editor.accessibilitySupport": "off",
   "editor.minimap.enabled": false,
   "editor.linkedEditing": true,
+  "editor.stickyScroll.enabled": true,
   "editor.renderLineHighlight": "none",
   "editor.renderWhitespace": "none",
-  "diffEditor.ignoreTrimWhitespace": false,
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
   "editor.codeActionsOnSave": {
@@ -119,6 +115,7 @@ Also check and setup [Settings Sync](https://code.visualstudio.com/docs/editor/s
   "explorer.confirmDelete": false,
   "explorer.compactFolders": false,
   "markdown.validate.enabled": true,
+  // * Formatter ==============================================================
   "[javascript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
@@ -134,15 +131,18 @@ Also check and setup [Settings Sync](https://code.visualstudio.com/docs/editor/s
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
+  // * Terminal Settings ======================================================
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.sendKeybindingsToShell": true,
-  "terminal.integrated.fontFamily": "'Cascadia Mono NF'",
+  "terminal.integrated.fontFamily": "FiraMono Nerd Font Propo",
   "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeightBold": "normal",
   "terminal.integrated.lineHeight": 1.2,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.env.osx": {
     "Q_NEW_SESSION": "1"
   },
+  // * Copilot ================================================================
   "github.copilot.enable": {
     "*": true,
     "plaintext": false,
@@ -152,6 +152,7 @@ Also check and setup [Settings Sync](https://code.visualstudio.com/docs/editor/s
     "properties": false
   },
 }
+
 
 
 ```
