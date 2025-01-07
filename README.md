@@ -53,7 +53,8 @@ code --list-extensions --profile profileName > vscode-extensions-profileName.lis
 ```
 And can install all the extension with the following command:
 ```sh
-cat vscode-extensions-profileName.list | xargs -L 1 code --install-extension --profile profileName
+cat vscode-extensions-profileName.list | xargs -L 1 code --profile profileName --install-extension
+
 ```
 Also check and setup [Settings Sync](https://code.visualstudio.com/docs/editor/settings-sync)
 ### Settings
