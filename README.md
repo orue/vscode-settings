@@ -61,7 +61,7 @@ Also check and setup [Settings Sync](https://code.visualstudio.com/docs/editor/s
 #### Default Profile Settings
 ```json
 {
-  // * General ================================================================
+  // * Workbench ==============================================================
   "workbench.startupEditor": "none",
   "workbench.editor.enablePreview": false,
   "workbench.editor.highlightModifiedTabs": true,
@@ -71,10 +71,11 @@ Also check and setup [Settings Sync](https://code.visualstudio.com/docs/editor/s
   "workbench.settings.editor": "json",
   "workbench.editor.showTabs": "none",
   "workbench.sideBar.location": "right",
+  "workbench.editor.labelFormat": "medium",
   "workbench.editorAssociations": {
     "*.md": "vscode.markdown.preview.editor"
   },
-  "window.zoomLevel": 0.52,
+  "window.zoomLevel": 0.35,
   "window.commandCenter": false,
   "window.newWindowProfile": "Default",
   "breadcrumbs.enabled": false,
@@ -135,13 +136,22 @@ Also check and setup [Settings Sync](https://code.visualstudio.com/docs/editor/s
   // * Terminal Settings ======================================================
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.sendKeybindingsToShell": true,
-  "terminal.integrated.fontFamily": "FiraMono Nerd Font Propo",
+  "terminal.integrated.fontFamily": "'JetBrains Mono','FiraMono Nerd Font Propo'",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.fontWeightBold": "normal",
   "terminal.integrated.lineHeight": 1.2,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.env.osx": {
     "Q_NEW_SESSION": "1"
+  },
+  // * Git ====================================================================
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.showActionButton": {
+    "commit": false,
+    "publish": false,
+    "sync": false
   },
   // * Copilot ================================================================
   "github.copilot.enable": {
@@ -152,9 +162,57 @@ Also check and setup [Settings Sync](https://code.visualstudio.com/docs/editor/s
     "gitignore": false,
     "properties": false
   },
+  "telemetry.telemetryLevel": "off",
+  "workbench.settings.applyToAllProfiles": [
+    "terminal.integrated.defaultProfile.osx",
+    "terminal.integrated.sendKeybindingsToShell",
+    "terminal.integrated.fontFamily",
+    "terminal.integrated.fontSize",
+    "terminal.integrated.fontWeightBold",
+    "terminal.integrated.lineHeight",
+    "terminal.integrated.cursorStyle",
+    "terminal.integrated.env.osx",
+    "workbench.startupEditor",
+    "workbench.editor.enablePreview",
+    "workbench.editor.highlightModifiedTabs",
+    "workbench.tree.renderIndentGuides",
+    "workbench.tree.indent",
+    "workbench.layoutControl.enabled",
+    "workbench.settings.editor",
+    "extensions.ignoreRecommendations",
+    "workbench.sideBar.location",
+    "window.zoomLevel",
+    "window.commandCenter",
+    "breadcrumbs.enabled",
+    "editor.wordWrap",
+    "editor.wordWrapColumn",
+    "editor.cursorBlinking",
+    "editor.cursorSmoothCaretAnimation",
+    "editor.multiCursorModifier",
+    "editor.autoIndent",
+    "editor.snippetSuggestions",
+    "editor.tabCompletion",
+    "editor.accessibilitySupport",
+    "editor.minimap.enabled",
+    "editor.linkedEditing",
+    "editor.renderLineHighlight",
+    "editor.renderWhitespace",
+    "editor.bracketPairColorization.enabled",
+    "editor.rulers",
+    "files.trimFinalNewlines",
+    "files.insertFinalNewline",
+    "files.trimTrailingWhitespace",
+    "files.defaultLanguage",
+    "explorer.confirmDragAndDrop",
+    "explorer.confirmDelete",
+    "explorer.compactFolders",
+    "git.autofetch",
+    "git.confirmSync",
+    "git.showActionButton",
+    "git.enableSmartCommit",
+    "workbench.editor.labelFormat"
+  ]
 }
-
-
 
 ```
 
